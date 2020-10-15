@@ -76,6 +76,7 @@ a > span {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: var(--primary-text-color);
 }
 /* КОНЕЦ ШАПКИ */
 
@@ -201,3 +202,47 @@ a > span {
   color: rgba(255, 255, 255, 0.6);
 }
 /* КОНЕЦ ПОДВАЛА */
+
+/* Портфолио */
+
+.port-nav-btn,
+.port-nav-btn-active {
+  background-color: #f5f4fa;
+  color: var(--hr-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.port-nav-btn:hover,
+.port-nav-btn:focus {
+  background-color: var(--primary-accent-color);
+  color: #ffffff;
+}
+
+.port-nav-btn-active {
+  background-color: var(--primary-accent-color);
+  color: #ffffff;
+}
+
+.port-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--hr-text-color);
+}
+
+.port-sub {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* КОНЕЦ ПОРТФОЛИО */

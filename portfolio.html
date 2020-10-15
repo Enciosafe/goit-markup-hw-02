@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
+
     <title>Web Studio</title>
     <link rel="stylesheet" href="./style/style.css">
     <link
@@ -17,15 +18,15 @@
         <!--ШАПКА САЙТА-->
         <nav>
             <a class="logo" href="/index.html"><span>Web</span>Studio</a>
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+            <ul class="nav">
+                <li><a class="nav-link" href="./index.html">Студия</a></li>
+                <li><a class="nav-link-active" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="nav-link" href="#">Контакты</a></li>
             </ul>
 
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
+                <li><a class="nav-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="nav-tel" href="tel:380961111111">+38 096 111 11 11</a></li>
             </ul>
         </nav>
     </header>
@@ -34,46 +35,118 @@
     <main>
         <!-- ПОРТФОЛИО -->
         <section> 
-            <ul>
-                <li><a href="#">Все</a></li>
-                <li><a href="#">Веб-сайты</a></li>
-                <li><a href="#">Приложения</a></li>
-                <li><a href="#">Дизайн</a></li>
-                <li><a href="#">Маркетинг</a></li>
+            <ul class="portfolio-nav">
+                <li><a class="port-nav-btn-active" href="#">Все</a></li>
+                <li><a class="port-nav-btn" href="#">Веб-сайты</a></li>
+                <li><a class="port-nav-btn" href="#">Приложения</a></li>
+                <li><a class="port-nav-btn" href="#">Дизайн</a></li>
+                <li><a class="port-nav-btn" href="#">Маркетинг</a></li>
             </ul>
 
             <ul>
-                <li><img src="./images/port1.jpg" alt=""></li>
-                <li><img src="./images/port2.jpg" alt=""></li>
-                <li><img src="./images/port3.jpg" alt=""></li>
-                <li><img src="./images/port4.jpg" alt=""></li>
-                <li><img src="./images/port5.jpg" alt=""></li>
-                <li><img src="./images/port6.jpg" alt=""></li>
-                <li><img src="./images/port7.jpg" alt=""></li>
-                <li><img src="./images/port8.jpg" alt=""></li>
-                <li><img src="./images/port9.jpg" alt=""></li>
+                <li>
+                    <figure>
+                        <img src="./images/port1.jpg" alt="ноутбук" />
+                        <figcaption>
+                            <div class="port-name">Технокряк</div>
+                            <div class="port-sub">Веб-сайт</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port2.jpg" alt="баскетбол" />
+                        <figcaption>
+                            <div class="port-name">Постер New Orlean vs Golden Star</div>
+                            <div class="port-sub">Дизайн</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port3.jpg" alt="ресторан лого" />
+                        <figcaption>
+                            <div class="port-name">Ресторан Seafood</div>
+                            <div class="port-sub">Приложение</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port4.jpg" alt="наушники" />
+                        <figcaption>
+                            <div class="port-name">Проект Prime</div>
+                            <div class="port-sub">Маркетинг</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port5.jpg" alt="коробки" />
+                        <figcaption>
+                            <div class="port-name">Проект Boxes</div>
+                            <div class="port-sub">Приложение</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port6.jpg" alt="настольный компьютер" />
+                        <figcaption>
+                            <div class="port-name">Inspiration has no Borders</div>
+                            <div class="port-sub">Веб-сайтr</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port7.jpg" alt="открытая книга" />
+                        <figcaption>
+                            <div class="port-name">Издание Limited Edition</div>
+                            <div class="port-sub">Дизайн</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port8.jpg" alt="лейбл" />
+                        <figcaption>
+                            <div class="port-name">Проект LAB</div>
+                            <div class="port-sub">Маркетинг</div>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/port9.jpg" alt="работа за ноутбуком" />
+                        <figcaption>
+                            <div class="port-name">Growing Business</div>
+                            <div class="port-sub">Приложение</div>
+                        </figcaption>
+                    </figure>
+                </li>
             </ul>
         </section>
         <!--КОНЕЦ ПОРТФОЛИО -->
     </main>
 
-    <footer>
+    <footer class="footer">
         <!--ПОДВАЛ-->
-        <a href="/">WebStudio</a>
-
+        <a class="logo-footer" href="/index.html"><span>Web</span>Studio</a>
+        
         <ul>
             <li>
-                <a href="https://goo.gl/maps/5Qw8rZGQF39L1Vfs9">г. Киев, пр-т Леси Украинки, 26</a>
+                <a class="footer-adress" href="https://goo.gl/maps/5Qw8rZGQF39L1Vfs9">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:380961111111"> +38 096 111 11 11</a>
+                <a class="footer-contacts" href="tel:380961111111"> +38 096 111 11 11</a>
             </li>
         </ul>
-    </footer>
-    <!--КОНЕЦ ПОДВАЛА-->
+        </footer>
+        <!--КОНЕЦ ПОДВАЛА-->
 </body>
 
 </html>
