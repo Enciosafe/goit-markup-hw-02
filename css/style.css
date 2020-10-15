@@ -9,6 +9,7 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-style: normal;
   color: var(--primary-text-color);
   background-color: #ffffff;
 }
@@ -24,9 +25,7 @@ li {
 /* ШАПКА */
 a > span {
   color: var(--primary-accent-color);
-  font-family: Raleway;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -36,8 +35,6 @@ a > span {
 .logo,
 .logo-footer {
   color: var(--hr-text-color);
-  font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -51,7 +48,6 @@ a > span {
 .nav-link-active,
 .nav-mail {
   color: var(--hr-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -71,7 +67,6 @@ a > span {
 
 .nav-tel {
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -87,7 +82,6 @@ a > span {
 }
 
 .hero-h {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   text-align: center;
@@ -96,7 +90,6 @@ a > span {
 }
 
 .hero-btn {
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -118,7 +111,6 @@ a > span {
 }
 
 .work-head {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -128,8 +120,6 @@ a > span {
 }
 
 .work-text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -137,7 +127,6 @@ a > span {
 }
 
 .whatwedo {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -155,7 +144,6 @@ a > span {
 }
 
 .team-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -165,7 +153,6 @@ a > span {
 }
 
 .team-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -174,8 +161,6 @@ a > span {
 }
 
 .team-pos {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -191,8 +176,6 @@ a > span {
 }
 
 .footer-adress {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -200,8 +183,6 @@ a > span {
 }
 
 .footer-contacts {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -239,7 +220,6 @@ a > span {
 }
 
 .port-name {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -248,8 +228,6 @@ a > span {
 }
 
 .port-sub {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
