@@ -27,7 +27,7 @@ a > span {
   color: var(--primary-accent-color);
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: left;
 }
@@ -37,7 +37,7 @@ a > span {
   color: var(--hr-text-color);
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -50,7 +50,7 @@ a > span {
   color: var(--hr-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -68,7 +68,7 @@ a > span {
 .nav-tel {
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--primary-text-color);
@@ -92,7 +92,7 @@ a > span {
 .hero-btn {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   color: #ffffff;
   background-color: var(--primary-accent-color);
 }
@@ -113,7 +113,7 @@ a > span {
 .work-head {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hr-text-color);
@@ -121,7 +121,7 @@ a > span {
 
 .work-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -129,7 +129,7 @@ a > span {
 .whatwedo {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--hr-text-color);
@@ -146,7 +146,7 @@ a > span {
 .team-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--hr-text-color);
@@ -155,14 +155,14 @@ a > span {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--hr-text-color);
 }
 
 .team-pos {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -177,14 +177,14 @@ a > span {
 
 .footer-adress {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .footer-contacts {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -203,7 +203,7 @@ a > span {
   color: var(--hr-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -222,14 +222,14 @@ a > span {
 .port-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--hr-text-color);
 }
 
 .port-sub {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
