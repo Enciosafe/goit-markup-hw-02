@@ -113,6 +113,10 @@ a > span {
 
 /* ЧЕМ ЗАНИМАЕМСЯ */
 
+.work {
+  background: #ffffff;
+}
+
 .work-head {
   font-style: normal;
   font-weight: bold;
@@ -147,6 +151,10 @@ a > span {
 /* НАША КОМАНДА */
 
 .team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-title {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -161,7 +169,6 @@ a > span {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--hr-text-color);
 }
@@ -171,7 +178,6 @@ a > span {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -204,6 +210,11 @@ a > span {
 /* КОНЕЦ ПОДВАЛА */
 
 /* Портфолио */
+.portfolio-page {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
 
 .port-nav-btn,
 .port-nav-btn-active {
