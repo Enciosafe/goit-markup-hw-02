@@ -14,11 +14,11 @@ body {
   background-color: #ffffff;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-li {
+.list {
   list-style-type: none;
 }
 
