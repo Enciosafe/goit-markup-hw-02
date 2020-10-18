@@ -23,7 +23,7 @@ body {
 }
 
 /* ШАПКА */
-a > span {
+.link > span {
   color: var(--primary-accent-color);
   font-size: 26px;
   font-weight: 700;
